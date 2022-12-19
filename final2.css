@@ -1,0 +1,825 @@
+body{
+    /* margin: 0; */
+    padding:0;
+    
+}
+.menu{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    z-index: 12;
+    margin-top: -20px;
+    
+}
+.fixed{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 60px;;
+    margin: 0;
+}
+.button{
+    border: none;
+    background-color: transparent;
+    color:rgb(94, 102, 116);
+    cursor: pointer;
+}
+#opening{
+    display: none;
+}
+
+.main{
+    width: 1150px;
+    margin-top: 60px;
+    text-align: center;
+    align-items: center;
+    display:inline-block;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url('fonts/DolomanPavljenko.otf');
+}
+
+.main2{
+    max-width: 870px;
+    text-align: center;
+    align-items: center;
+    margin-top:20px;
+    margin: 0 auto;
+}
+.main11{
+    width: auto;
+}
+.our1{
+    font-size: 20px;
+    color:rgb(94, 102, 116);
+}
+
+@font-face {
+    font-family: myfd;
+    src: url('fonts/MultiroundPro.otf');
+}
+.h12{
+    font-family: myfd;
+    font-size: 20px;
+    color: rgb(72, 70, 128);
+}
+.btn1{
+    background-color: white;
+    border: 3px solid rgb(20, 12, 61);
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    color: rgb(20, 12, 61);
+}
+.btn2{
+    background-color: rgb(20, 12, 61);
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+}
+
+.gh{
+   
+    justify-content: center;
+}
+.buttons button{
+    margin: 10px;
+    margin-top: 40px;
+}
+.buttons{
+    max-width: 800px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.btn2:hover, .btn2:focus{
+    background-color: white;
+    color:rgb(20, 12, 61);
+    transform: translateY(-5px);
+    border: 3px solid rgb(20, 12, 61);
+    transition: 0.5s;
+}
+.btn1:hover, .btn1:focus{
+    background-color: rgb(20, 12, 61);
+    color: white;
+    transform: translateY(-5px);
+    border: 3px solid rgb(20, 12, 61);
+    transition: 0.5s;
+}
+.res{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.imgs img{
+    margin: 15px;
+}
+.imgs h1{
+    margin-left: 10px;
+}
+.me{
+    font-family: myfont;
+    font-size: 45px;
+    color: rgb(20, 12, 61);
+}
+.modal{
+   width: 1400px;
+   height: 400px;
+   background-color: rgb(209, 209, 209);
+   margin-top: 30px;
+   margin-left: 20px;
+   
+}
+.x{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 1350px;
+}
+.xs{
+    font-size: 40px;;
+}
+.rese{
+    margin-left: 20px;
+}
+.our3{
+    font-family: myfont;
+    font-size: 50px;
+    color: rgb(20, 12, 61);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.our4{
+    font-size: 20px;
+    color:rgb(94, 102, 116);
+    margin-top: 10px;
+}
+.btn22{
+    background-color: rgb(20, 12, 61);
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+}
+.btn22:hover{
+    background-color: white;
+    color:rgb(20, 12, 61);
+    border: 3px solid rgb(20, 12, 61);
+    transition: 0.5s;
+}
+.vl{
+    border-left: 6px solid rgb(20, 12, 61);
+    height: 300px;
+    margin-left:10px;
+    margin-top: 20px;
+}
+.modalfl{
+    display: flex;
+}
+.our3{
+    font-family: myfont;
+    font-size: 40px;
+    color: rgb(20, 12, 61);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.our41{
+    font-size: 20px;
+    color:rgb(94, 102, 116);
+    margin-top: 10px;
+    margin-left: 20px;;
+}
+.icon{
+    display: flex;
+}
+.modal_box{
+    display: none;
+    opacity: 0;
+}
+.modal2{
+    background-color: rgb(209, 209, 209);
+    height: auto;
+    width: 100%;
+    margin-top: 150px;
+}
+.js{
+    text-align: center;
+    max-width: 800px;
+    height: auto;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.step{
+    color: rgb(20, 12, 61);
+}
+.ella{
+    text-align: center;
+    margin-top: 20px;
+}
+.vogu{
+    max-width: 200px; 
+    margin-top: 40px;  
+}
+.vogu1{
+    text-align: center;
+}
+.pres{
+    border: none;
+    background-color: transparent;
+    color: rgb(20, 12, 61);
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    font-size: 25px;
+    margin-left: 0 auto;
+    cursor: pointer;
+}
+.pres1{
+    text-align: center;
+}
+.form{
+    margin-top: 100px;
+    text-align: center;
+}
+.forfor{
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    /*
+    max-width: 870px;
+    text-align: center;
+    align-items: center;
+    margin-top:20px;
+    margin: 0 auto;*/
+}
+.our11{
+    font-size: 20px;
+    color:rgb(94, 102, 116);
+    line-height: 30px;
+}
+.formm{
+    border: 1px solid rgb(181, 180, 183);
+    width: 46%;
+    height: 40px;
+    border-radius: 9px;
+}
+.inp_div{
+    max-width: 800px;
+    margin:0 auto;
+    margin-top: 40px;
+}
+.inpp{
+    display: flex;
+    justify-content: space-between;
+}
+.email{
+    border-radius: 9px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(181, 180, 183);
+    margin-top: 15px;
+}
+.texta{
+    resize: vertical;
+    border: 1px solid rgb(181, 180, 183);
+    border-radius: 9px;
+    margin-top: 15px;
+    width: 100%;
+}
+.btn23{
+    background-color: rgb(20, 12, 61);
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    margin-top: 15px;;
+}
+
+.btn233{
+    max-width: 800px;
+    margin:0 auto;
+}
+.rt{
+    border: none; 
+    background-color: transparent;
+
+}
+.firstflcop{
+    display: flex;
+}
+.mazi2022{
+    font-size: 17px;
+    font-family: myfd;
+    margin-top: 2px;
+    color: rgb(181, 180, 183);
+}
+.firstflex{
+    width:150px;
+}
+.allright{
+    font-size: 17px;
+    font-family: myfd;
+    margin-top: 5px;
+    color:rgb(181, 180, 183);
+}
+.secondflex{
+    width: 230px;
+}
+.ending{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(54, 40, 123); 
+    height: auto; 
+    margin-top: 200px;
+}
+.loc{
+    margin-top: 25px;
+}
+.hillgate{
+    font-size: 17px;
+    margin-top: 25px;
+    font-family: myfd;
+    color: rgb(181, 180, 183);
+    line-height: 25px;
+}
+.london{
+    font-size: 17px;
+    font-family: myfd;
+    margin-top:2px;
+    color:rgb(181, 180, 183)
+}
+.location{
+    font-size: 25px;
+    font-family: myfont;
+    color:rgb(181, 180, 183);
+    margin-top: 35px;
+}
+.contact{
+    font-size: 25px;
+    margin-top: 20px;
+    color:rgb(181, 180, 183);
+}
+.fol{
+    margin-top: 25px;
+}
+.follow{
+    font-size: 25px;
+    font-family: myfont;
+    color: rgb(181, 180, 183);
+    margin-top: 35px;
+}
+.thirdflex{
+    width: 150px;
+}
+.hillg{
+    border: none;
+    background-color: transparent;
+    margin-top: 5px;
+}
+.fourthflex{
+    width: 350px;
+}
+.fixed a{
+    background: linear-gradient(#bab5d5 0 0)  var(--d, 50%) 100%/var(--d, 0) 3px no-repeat;
+    height: 45px;
+    transition: 0.5s;
+    margin-top: 25px;
+}
+.fixed a:hover{
+    --d: 100%;
+}
+.ourvision{
+    text-align: center;
+}
+@keyframes text1 {
+    0%{
+        margin-bottom: 0px;
+    }
+    50%{
+        margin-bottom: 100px;
+    }
+   
+}
+.our{
+    font-family: myfont;
+    font-size: 50px;
+    color: rgb(20, 12, 61);
+    animation: text1 2s 1;
+    text-align: center;
+    align-items: center;
+}
+.main{
+    width: auto;
+    margin-top: 60px;
+    text-align: center;
+    align-items: center;
+  
+    animation: text1 2s 1;
+    
+}
+
+@keyframes firimg {
+    0%{
+        opacity: 0.2;
+    }
+    50%{
+       opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#our{
+    animation: an1 2s 1;
+}
+@keyframes an1 {
+    0%{
+        margin-top: 40px;
+    }
+    50%{
+        margin-top: 100px;
+    }
+}
+.imgs{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    z-index: -12;
+    animation: img 1s 1;
+}
+@keyframes img{
+    0%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    justify-content: left;
+    margin: 0 60px;
+    text-align: center;
+    align-items: center;
+}
+
+.bigimg{
+    animation: fadeout 3s 1;
+    min-width: 100px;
+}
+.bigimg img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes fadeout {
+    0%{
+        opacity: 0.1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.submenu{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+.bigimg1{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    max-width: 450px;
+}
+.bigimg2{
+    max-width: 450px;
+    margin: auto auto;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.firimg{
+    animation: fadein 2s 1;
+    width: 50%;
+}
+.ourstory{
+    max-width: 50%;
+    height: auto;
+    margin-top: 30px;    
+}
+.ourstory img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;;
+}
+.ourstory1{
+    width: 50%;
+    text-align: center;
+    margin-top: 100px;
+}
+.ourstoryword{
+    color:rgb(20, 12, 61);
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.padour{
+    padding: 30px;
+}
+.partourstory{
+    display: none;
+    
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.partourstory div{
+    margin: 10px;
+}
+.our14{
+    font-size: 20px;
+    color:rgb(94, 102, 116);
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 10px;
+}
+.reser{
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.er{
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.reserv{
+    color: rgb(181, 180, 183);
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 15px;
+    line-height: 30px;
+}
+.lunch{
+    color:rgb(20, 12, 61);
+    text-align: left;
+    font-size: 23px;
+    margin-top: 15px;
+}
+.opening{
+    margin-top: 15px;
+}
+.ourw{
+    font-family: myfont;
+    font-size: 50px;
+    color: rgb(20, 12, 61);
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.reserv1{
+    color: rgb(181, 180, 183);
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 2px;
+    line-height: 30px;
+}
+ul li a{
+    cursor: pointer;
+}
+.cookbook{
+    width: 70%; 
+    margin:auto;
+}
+.cookbook-container{
+    background-color: rgb(209, 209, 209);
+    /* height: 700px; */
+    display: none;
+}
+#open{
+    display: none;
+}
+.ourw1{
+    font-family: myfont;
+    font-size: 50px;
+    color: rgb(20, 12, 61);
+    text-align: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.indep_img{
+    width: 30%;
+    margin: auto;
+    margin-top: 2%;
+}
+.indep_img img{
+    width: 100%;
+}
+.btn24{
+    background-color: rgb(20, 12, 61);
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;    
+    margin: 0 auto;
+
+}
+.amazon{
+    text-align: center;
+    margin-top: 2%;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.book{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 3%;
+}
+.book img{
+    width: 100%;
+}
+@media (max-width: 415px){
+    .modal2{
+        width: 895px;
+    }
+    .inp_div{
+        margin-left: 50px;
+        width: 815px;
+    }
+    .form{
+        width: 815px;
+    }
+    .forf{
+        width: 815px;
+    }
+    .bigimg{
+        width: 815px;
+    }
+    .main, .main11, .buttons{
+        width: 815px;
+    }
+    .res{
+        width: 815px;
+    }
+    .imgs{
+        width: 815px;
+    }
+    .imgs img{
+        width: 250px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .partourstory{
+        width: 815px;
+    }
+    .gh{
+        width: 815px;
+    }
+    .buttons{
+        width: 400px;
+    }
+    .open, .er{
+        width: 815px;
+    }
+    .cookbook-container{
+        width: 815px;
+    }
+    .fixed{
+        display: flex;
+        justify-content: center;
+    }
+    .fixed div{
+        margin: -20px;
+    }
+    .ending{
+        flex-direction: column;
+        width: 895px;
+        
+    }
+    .firstflex{
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-left: 40%;
+    }
+    .secondflex{
+        text-align:center;
+        margin:0 auto;
+        width: 50%;
+    }
+    .thirdflex{
+        text-align: center;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .fourthflex{
+        text-align: center;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .modal{
+        width: 900px;
+    }
+}
+/*@media (max-width: 820px){
+    .modal2{
+        width: 815px;
+    }
+    .inp_div{
+        margin-left: 80px;
+        width: 815px;
+    }
+    .form{
+        width: 815px;
+    }
+    .forf{
+        width: 815px;
+    }
+    .bigimg{
+        width: 815px;
+    }
+    .main, .main11, .buttons{
+        width: 815px;
+    }
+    .res{
+        width: 815px;
+    }
+    .imgs{
+        width: 815px;
+    }
+    .imgs img{
+        width: 250px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .partourstory{
+        width: 815px;
+    }
+    .gh{
+        width: 815px;
+    }
+    .buttons{
+        width: 400px;
+    }
+    .open, .er{
+        width: 815px;
+    }
+    .cookbook-container{
+        width: 815px;
+    }
+    .fixed{
+        display: flex;
+        justify-content: center;
+    }
+    .fixed div{
+        margin: -20px;
+    }
+    .ending{
+        flex-direction: column;
+        width: 815px;
+        
+    }
+    .firstflex{
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-left: 40%;
+    }
+    .secondflex{
+        text-align:center;
+        margin:0 auto;
+        width: 50%;
+    }
+    .thirdflex{
+        text-align: center;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .fourthflex{
+        text-align: center;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .modal{
+        width: 900px;
+    }
+}
+
+*/
